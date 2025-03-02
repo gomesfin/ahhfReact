@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <div className="pt-[68px]"> {/* Add padding to top. Adjust to your header height*/}
+        <div className="pt-[50px]"> {/* Add padding to top. Adjust header height*/}
 
         <Routes>
           <Route path="/" element={<> <Hero /> <About /> <Donate /> </>} />
